@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # A test-driven JS assessment
 
 [![Join the chat at https://gitter.im/rmurphey/js-assessment](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/rmurphey/js-assessment?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
@@ -98,3 +99,7 @@ Copyright &copy; 2012-2015 Rebecca Murphey.
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a>
 
 This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+=======
+# js-assessment
+an assessment of JS fundamentals, using tests
+>>>>>>> 050b9c0a2095b1af1ad6e2a3d19ee7df73b50aac
