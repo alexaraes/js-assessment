@@ -85,10 +85,22 @@ exports.arraysAnswers = {
   },
 
   square : function(arr) {
+    ret= [];
 
+    for (var i = 0, len = arr.length; i < len; i++) {
+        ret.push(arr[i] * arr[i]);
+    }
+
+    return ret;
   },
 
   findAllOccurrences : function(arr, target) {
-
+    var indexes = [], i;
+    for(i = 0; i < arr.length; i++)
+        if (arr[i] === target) {
+          indexes.push(i);
+        }
+            
+    return indexes;
   }
 };
