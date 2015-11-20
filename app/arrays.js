@@ -66,20 +66,22 @@ exports.arraysAnswers = {
       return arrItem === item;
     }).length;
   },
-
+  // return an array that contains one of each duplicate of the original array
+  // var arr = [ 1, 2, 4, 4, 3, 3, 1, 5, 3 ] should return
+  // [1, 3, 4]
   duplicates : function(arr) {
-    var i,
-      len=arr.length,
-      out=[],
-      obj={};
- 
-    for (i=0;i<len;i++) {
-      obj[arr[i]]=0;
+    var sorted_arr = arr.sort(); 
+    var results = [];
+
+    for (var i = 0; i < arr.length; i++) {
+        if (sorted_arr[i+1] == sorted_arr[i]) {
+          if(results.indexOf(sorted_arr[i]) === -1) {
+            results.push(sorted_arr[i]);
+          }
+        }
     }
-    for (i in obj) {
-      out.push(i);
-    }
-    return out;
+
+    return results;
   },
 
   square : function(arr) {
